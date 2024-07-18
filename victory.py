@@ -61,7 +61,7 @@ while not is_vict_over:
 
     for i in range(total_answer):
         que = questions[result[i]]
-        print(f'Вопрос №{i}')
+        print(f'Вопрос №{i + 1}')
         answer = input(f'Когда год рожденья у {que[0]}?')
         if answer == que[1]:
             correct_answer += 1
